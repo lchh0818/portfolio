@@ -1,6 +1,6 @@
 window.experienceData.push({
   id: 'startup-thon',
-  period: '현재',
+  period: '2025',
   title: '스타트업톤 총괄',
   description: '학교 비즈쿨과 협업해 1학년 90명이 참여한 2박 3일 창업 해커톤을 기획하고 운영했습니다.',
   details: [
