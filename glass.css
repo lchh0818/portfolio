@@ -1,0 +1,58 @@
+:root{
+  --paper:#edf3f8;
+  --ink:#16253a;
+  --muted:#65758a;
+  --line:rgba(255,255,255,.72);
+  --blue:#2563d9;
+  --glass:rgba(255,255,255,.58);
+  --glass-strong:rgba(255,255,255,.78);
+  --shadow:0 22px 55px rgba(42,65,97,.12);
+}
+
+body{
+  background:
+    radial-gradient(circle at 8% 8%, rgba(130,183,255,.3), transparent 27rem),
+    radial-gradient(circle at 92% 40%, rgba(255,190,157,.24), transparent 24rem),
+    var(--paper);
+  color:var(--ink);
+}
+
+header{
+  background:rgba(237,243,248,.68);
+  border-bottom:1px solid rgba(255,255,255,.74);
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+}
+
+.nav{padding-top:18px;padding-bottom:18px}.brand{font-size:15px}nav a{color:var(--muted);transition:color .2s ease}nav a:hover{color:var(--blue)}
+.hero{padding-top:92px;padding-bottom:92px}.hero figure{margin:0}.portrait{background:var(--glass);border:1px solid var(--line);box-shadow:var(--shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.portrait-label{padding-left:4px}.portrait-label strong{color:var(--ink)}
+.about-label{margin:22px 0 8px;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+section{border-top-color:rgba(255,255,255,.72)}
+.role-section{padding-top:34px}.role-card,.experience-card{padding:26px;border:1px solid rgba(255,255,255,.8);border-radius:20px;background:var(--glass);box-shadow:var(--shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}.role-list{display:grid;gap:16px}.role-line{display:flex;align-items:baseline;justify-content:space-between;gap:24px;padding-bottom:16px;border-bottom:1px solid rgba(89,116,149,.16)}.role-line:last-child{padding-bottom:0;border-bottom:0}.role-card h3{margin:0;font-size:26px;letter-spacing:-.03em}.role-date{color:var(--muted);font-size:14px;white-space:nowrap}.role-period{display:inline-block;margin-bottom:18px;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.12em}.experiences-section{padding-top:34px}.experience-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.experience-card{min-height:180px}.experience-card h3{margin:0 0 10px;font-size:18px;line-height:1.45}.experience-card p{margin:0;color:var(--muted);font-size:14px;line-height:1.7}
+.section-head{align-items:end}.section-head h2{letter-spacing:-.035em}.section-head small{color:var(--blue);font-weight:700;letter-spacing:.14em}
+.card{overflow:hidden;border:1px solid rgba(255,255,255,.8);border-radius:22px;background:var(--glass);box-shadow:var(--shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}.card:hover{transform:translateY(-7px);box-shadow:0 28px 60px rgba(42,65,97,.18);border-color:rgba(255,255,255,1)}
+.cover{border:0;border-radius:0;background:linear-gradient(135deg,var(--cover),rgba(255,255,255,.62));min-height:240px;padding:28px}.cover img{display:block;width:100%;height:100%;min-height:240px;object-fit:cover;position:absolute;inset:0;transition:transform .45s ease}.card:hover .cover img{transform:scale(1.045)}.cover:has(img){padding:0}.cover:has(img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,26,48,.04),rgba(12,26,48,.42));pointer-events:none}.cover:has(img) .cover-foot{z-index:1;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.35)}
+.cover-meta{color:var(--cover-ink);font-weight:750}.cover-title{letter-spacing:-.045em}.cover-foot{font-weight:700}.card-info{padding:24px 26px 27px}.card-info h3{letter-spacing:-.025em}.card-info p{color:var(--muted)}.arrow{width:36px;height:36px;border:1px solid rgba(37,99,217,.18);border-radius:50%;display:grid;place-items:center;color:var(--blue);background:rgba(255,255,255,.55);flex:none}
+.tag{border-color:rgba(255,255,255,.82);background:rgba(255,255,255,.56);box-shadow:0 4px 14px rgba(42,65,97,.05)}
+.experience{gap:28px}.experience>div,.contact,.detail-body aside,.detail-body article{border:1px solid rgba(255,255,255,.75);border-radius:20px;background:var(--glass);box-shadow:var(--shadow);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}.experience>div{padding:28px}.row{border-top-color:rgba(89,116,149,.16)}
+.experience{grid-template-columns:1fr}.experience>div:first-child{display:none}
+.contact{border:1px solid rgba(255,255,255,.2);box-shadow:0 25px 65px rgba(14,39,76,.2);background:linear-gradient(135deg,rgba(30,73,145,.95),rgba(44,113,183,.86));border-radius:24px}.contact-row{border-bottom-color:rgba(255,255,255,.2)}
+.back{margin-top:35px;color:var(--blue);font-weight:700}.detail-head{padding-top:42px}.detail-cover{border:1px solid rgba(255,255,255,.8);border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}.detail-body{gap:28px}.detail-body aside,.detail-body article{padding:28px}.detail-body article{background:rgba(255,255,255,.62)}.gallery img{border:1px solid rgba(255,255,255,.75);box-shadow:0 14px 30px rgba(42,65,97,.1)}
+.detail-extra h2{margin:0 0 14px}.detail-extra p{margin-bottom:35px}
+.detail-tabs{display:flex;gap:8px;margin:28px 0 0;border-bottom:1px solid rgba(89,116,149,.16)}.detail-tab{padding:12px 18px;border:0;border-bottom:2px solid transparent;background:transparent;color:var(--muted);font:inherit;font-weight:700;cursor:pointer}.detail-tab.is-active{border-bottom-color:var(--blue);color:var(--blue)}.detail-panel{display:none}.detail-panel.is-active{display:block}
+.experience-media{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.experience-media img{width:100%;height:150px;object-fit:cover;border-radius:12px;border:1px solid rgba(255,255,255,.8);box-shadow:0 10px 24px rgba(42,65,97,.1)}.experience-media .experience-image{grid-column:1/-1;height:230px}
+footer{color:var(--muted)}
+@media(max-width:760px){.hero{padding-top:55px;padding-bottom:55px}.experience-list{grid-template-columns:1fr}.experience-media{grid-template-columns:repeat(2,1fr)}.experience-media .experience-image{height:200px}.role-line{align-items:flex-start;flex-direction:column;gap:4px}.role-date{font-size:13px}.cover{min-height:210px}.cover img{min-height:210px}.experience>div,.detail-body aside,.detail-body article{padding:22px}.card-info{padding:20px 21px 22px}}
+
+.portrait {
+  width: 320px;
+  height: 400px;
+}
+
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
