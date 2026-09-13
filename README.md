@@ -13,6 +13,9 @@
 - 프로젝트 이미지 입력 예시: `image: 'projects/donghaeng/images/cover.jpg'`, `gallery: ['projects/donghaeng/images/detail-1.jpg']`
 - 경험 사진: `experiences/images/` 폴더에 넣고 `content.js`의 경험 항목에 `image`와 `gallery` 경로 지정
 - 경험 사진 입력 예시: `image: 'experiences/images/demo-day.jpg'`, `gallery: ['experiences/images/demo-day-1.jpg']`
+- 경험 상세 페이지: 경험 카드를 누르면 `experience.html`에서 상세 내용이 표시됩니다.
+- 경험별 정보: `experiences/` 폴더의 경험별 JavaScript 파일에서 기간, 제목, 설명, 이미지를 수정합니다.
+- 경험 영상: 경험 파일에 `video: 'video-file.mp4'`를 추가하고 영상을 `experiences/images/` 폴더에 넣으면 상세 페이지에서 재생할 수 있습니다.
 - 상세 설명: 각 `project.js`의 `details`에 `{ title: '소제목', text: '상세 내용' }` 추가
 - 출품대회 탭: 각 `project.js`의 `competition`에 대회명, 설명, 결과 입력
 - 파일명만 입력하면 폴더 위치가 자동으로 연결됩니다. 기존처럼 `assets/...` 전체 경로를 입력해도 됩니다.

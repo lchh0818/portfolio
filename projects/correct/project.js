@@ -6,7 +6,7 @@ window.projectData.push({
   role: '제품 기획 참여',
   color: '#dcebed',
   ink: '#285a65',
-  image: '',
+  image: 'correct.png',
   gallery: [],
   summary: '앉는 자세를 생각한 방석',
   description: '착석 압력을 분석하고 자세에 따라 방석의 형태를 달리해 편안한 착석과 올바른 자세를 돕는 제품을 기획했습니다.',
@@ -15,4 +15,10 @@ window.projectData.push({
   tech: [],
   link: '',
   github: ''
+  ,
+  competition: {
+    title: '국제청소년창업올림피아드 2025',
+    description: '본선 발표 후 탈락',
+    result: ''
+  },
 });

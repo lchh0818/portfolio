@@ -6,7 +6,7 @@ window.projectData.push({
   role: '서비스 기획 및 개발',
   color: '#eee4d7',
   ink: '#725234',
-  image: '',
+  image: 'resoil.png',
   gallery: [],
   summary: '음식물 자원화와 맞춤 시비를 연결하는 플랫폼',
   description: '리쏘일은 음식물쓰레기를 농업용 비료 자원으로 활용하고, 농가의 토양과 작물 조건에 맞는 시비 정보를 제공하기 위해 기획·개발한 플랫폼입니다. 음식물쓰레기의 처리뿐 아니라 재활용된 비료가 필요한 곳에서 적절하게 사용되는 과정에 집중했습니다.',
@@ -21,8 +21,8 @@ window.projectData.push({
     { title: '프로젝트를 통해 얻은 경험', text: '환경 문제를 실제 사용자와 유통 과정의 관점에서 분석하고, 데이터 기반 정보 제공과 실물 자원의 유통을 함께 고려하며 기획과 개발을 연결하는 경험을 쌓았습니다.' }
   ],
   competition: {
-    title: '코드페어 2025',
-    description: '본선 발표 후 탈락',
+    title: '경기도청소년창업경진대회 2025',
+    description: '본선 진출 후 탈락',
     result: ''
   },
   tech: [],
